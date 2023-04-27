@@ -32,6 +32,6 @@ app.use("/api/users", usersRoutes);
 app.use("/api/posts", postRoutes);
 app.use("/", webRoutes);
 
-app.listen(3306, () => {
-  console.log("Connected");
-});
+// app.listen(3306, () => {
+//   console.log("Connected");
+// });
