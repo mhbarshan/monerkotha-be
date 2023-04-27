@@ -32,6 +32,6 @@ app.use("/api/users", usersRoutes);
 app.use("/api/posts", postRoutes);
 app.use("/", webRoutes);
 
-app.listen(8800, () => {
+app.listen(3306, () => {
   console.log("Connected");
 });
