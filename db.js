@@ -1,9 +1,9 @@
 import mysql from "mysql";
 
 export const db = mysql.createConnection({
-  host: "bnzvj8lugdkgwzkhrymq-mysql.services.clever-cloud.com",
-  user: "uavsc8p6rdomt0rc",
-  password: "aV474g09vIY6dCWLCT26",
-  database: "bnzvj8lugdkgwzkhrymq",
+  host: "sql12.freesqldatabase.com",
+  user: "sql12772968",
+  password: "ebP5nF9In9",
+  database: "sql12772968",
   port: "3306",
 });
