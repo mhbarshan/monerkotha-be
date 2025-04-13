@@ -7,3 +7,6 @@ export const db = mysql.createConnection({
   database: "sql12772968",
   port: "3306",
 });
+
+if(db) console.log("Connected");
+else console.log("Connecting..")
